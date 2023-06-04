@@ -1,0 +1,17 @@
+from taskDescriptition import Factor, maxDivider
+
+
+def main(n):
+
+    ans = Factor(n)
+    for a in ans:
+        print(f'{a}')
+
+    print('========================================')
+
+    md = maxDivider(n)
+    print(f'{md}')
+
+
+if __name__ == '__main__':
+    main(5019)
